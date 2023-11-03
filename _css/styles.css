@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  font-size: 18px;
+  color: #5d6063;
+}
+
+h1,
+h2 {
+  font-weight: normal;
+  font-style: normal;
+}
+
+header {
+  text-align: center;
+  color: #fff;
+}
+
+nav {
+  background-color: #54575a;
+}
+
+/* target all ul under nav*/
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  /* 0 for margin on top and bottom; auto for margin at right and left*/
+  /* you can use 0 0 auto auto to indicate margin at top, bottom, right and left sides respectively*/
+}
+
+nav li {
+  list-style-type: none;
+  width: 50%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+nav a:link,
+nav a:visited {
+  color: #888f95;
+  text-decoration: none;
+}
+
+nav a:hover,
+nav a:visited:hover,
+nav a:active,
+nav a:visited:active {
+  color: #54a5c4;
+  text-decoration: underline;
+}
+
+.hero {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background-color: #5d6063;
+}
+
+.hero h1 {
+  font-size: 50px;
+}
+
+section {
+  padding: 40px 10px;
+  margin: 0 auto;
+  max-width: 540px;
+}
+
+.section {
+  margin: 4em auto;
+  padding: 2.5em 3em;
+}
+
+.section--grey:first-of-type,
+.section--grey {
+  border: 1px solid #d6d9dc;
+}
+
+.section h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.section--grey {
+  border: 1px solid rgb(8, 119, 231);
+}
+
+.section--grey:first-of-type p {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.section--grey p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
